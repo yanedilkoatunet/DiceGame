@@ -1,0 +1,53 @@
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 74px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.submit {
+    background-color: #520673;
+    color: white;
+    width: 150px;
+    margin-top: 30px;
+    height: 39px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    background-image: url(neonbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 300px;
+}
+
+.players,
+.dice {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;text-shadow: 3px 3px 3px black;
+}
+
+.right {
+    text-align: right;
+}
+
+.dice img {
+    width: 16%;
+    height: auto;
+}
